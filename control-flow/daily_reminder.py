@@ -16,11 +16,8 @@ match priority:
 
 
 if time_bound == "yes":
-    reminder += " that requires immediate attention today!"
+    reminder += "that requires immediate attention today!"
 elif time_bound == "no":
-    reminder += ". Consider completing it when you have free time."
-else:
-    reminder += ". However, the time-bound information entered is invalid."
-
+    reminder += "Consider completing it when you have free time."
 
 print(reminder)
